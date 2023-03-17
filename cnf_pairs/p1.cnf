@@ -1,0 +1,5 @@
+Makes(Tatte,ColdBrew) 
+-CoffeeMaker(x) |-CoffeeMaker(x3) | -Makes(x3,ColdBrew) | -Bold(ColdBrew)
+
+Tatte,Tatte3,Tatte3,ColdBrew,Colbrew
+replace(x,Tatte)
